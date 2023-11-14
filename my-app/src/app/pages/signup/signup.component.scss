@@ -1,0 +1,103 @@
+h2 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    width: 90%;
+}
+
+.card span input {
+    width: 100%;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message {
+    color: rgb(239, 103, 103);
+}
+
+.pass-up {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pass-up-forgot {
+    display: flex;
+    justify-content: center;
+}
+
+.pass-up-forgot a {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.pass-up-register {
+
+    display: flex;
+    justify-content: center;
+}
+
+.p-button-success {
+    background-color: #d4ba7e;
+    border: #dbceaf;
+    color: #000;
+}
+
+.card-btn button:hover {
+    background-color: #987d3e;
+    border: #c18d14;
+}
+
+.form-check {
+    width: 100%;
+}
+
+.btn-icon {
+
+    border: 1px solid #ffff;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.form-icon {
+    height: 70%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-icon:hover {
+    background-color: #dbceaf;
+    transition: 1s;
+}
+
+.divider {
+    width: 100%;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
